@@ -1,31 +1,33 @@
 # Control flow in Ruby
 # if, elsif, else
 # Bigger if statement
-if statement_to_be_evaluated == true
+# if statement_to_be_evaluated == true
     # do something
-elsif another
+# elsif another
     # do something else
-    else
+    # else
     # do something else
-end
+# end
 # Block if statement
-if statement_to_be_evaluated == true then
+# if statement_to_be_evaluated == true then
     # do something
-end
+# end
 # One line if statement
-if statement_to_be_evaluated == true then # do something end
+# if statement_to_be_evaluated == true then # do something end
 
-if 1 < 2 
-    puts "Yes, it is!"
-else
-    puts "No, it's not!"
-end    
+# if 1 < 2 
+#     puts "Yes, it is!"
+# else
+#     puts "No, it's not!"
+# end    
 
 puts "Having fun with Ruby!" if 1 < 2
 
 puts "Hot diggity damn, 1 is less than 2" if 1 < 2
 
 # if..elsif Statement
+attack_by_land = false
+attack_by_water = false
 if attack_by_land == 'true'
     puts "release the goat"
 else 
