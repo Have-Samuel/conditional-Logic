@@ -217,6 +217,60 @@ else
     puts 'Careful now'
 end
 
+# Tenary Operator
+# The ternary operator is a one-liner shorthand for an if...else statement. It’s a great way to write simple if...else statements in a single line.
+age = 19
+response = age < 18 ? 'You still have your entire life ahead of you.': 'You are all grown up.'
+puts response
+
+# The ternary operator is a one-liner shorthand for an if...else statement. It’s a great way to write simple if...else statements in a single line.
+
+if age < 18 
+    response = 'You still have your entire life ahead of you.'
+else
+    response = 'You are all grown up.'
+end
+
+puts response
+
+puts 'Put in a number'
+a = gets.chomp.to_i
+if a == 3
+    puts 'a is 3'
+elsif a == 4
+    puts 'a is 4'
+else 
+    puts 'a is neither 3, nor 4'
+end
+
+# Comparision
+'42' < '402' # true
+'42' < '43' # false
+# why is '42' < '402' true? and '42' < '43' false?
+# The spaceship operator (<=>) is used to compare two values. It returns -1 if the value on the left is less than the value on the right, 0 if the value on the left is equal to the value on the right, and 1 if the value on the left is greater than the value on the right. When comparing strings, the spaceship operator compares the ASCII values of the characters in the strings. In the case of '42' < '402', the ASCII value of '4' is 52, and the ASCII value of '0' is 48. Since 52 is greater than 48, '42' is greater than '402'. In the case of '42' < '43', the ASCII value of '4' is 52, and the ASCII value of '3' is 51. Since 52 is greater than 51, '42' is greater than '43'.
+
+# '42' < 420 # true
+# why is '42' < 420 true?
+# When comparing a string to a number, Ruby converts the string to a number. In this case, '42' is converted to 42. Since 42 is less than 420, '42' < 420 is true.
+# 42 > '420' # false
+# why is 42 > '420' false?
+# When comparing a number to a string, Ruby converts the string to a number. In this case, '420' is converted to 420. Since 42 is less than 420, 42 > '420' is false.
+
+'string' >= 'strings' # false
+# why is 'string' >= 'strings' false?
+# When comparing two strings, Ruby compares the ASCII values of the characters in the strings. In this case, the ASCII value of 'i' is 105, and the ASCII value of 's' is 115. Since 105 is less than 115, 'string' is less than 'strings'.
+
+# Tenary Operator
+true ? 'this is true!' : 'this is not true!'
+false ? 'This is true!' : 'This is not true!'
+
+
+
+
+
+
+
+
 
 
 
