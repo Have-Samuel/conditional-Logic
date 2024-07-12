@@ -42,3 +42,39 @@ elsif attack_by_water == 'true'
 else 
     puts 'release kelvin the octopus'
 end
+
+# Boolean Logic
+# eql? Examples
+# b = 5.eql?(5)
+# puts b
+# h = 4.eql?(4.0)
+# puts h
+# y = 3.eql?('3')
+# puts y
+g = 'kilo'
+b = 'kilo'
+puts g.eql?(b)
+
+# equal? Examples
+# k = 5.equal?(5.0)
+# puts k
+
+# g = 2
+# h = '2'
+# g.equal?(h)
+# puts g.equal?(h)
+g = 'kilo'
+b = 'kilo'
+puts g.equal?(b)
+
+# Spaceship Operator
+# <=> (spaceship operator) returns the following:
+-1 if the value on the left is less than the value on the right;
+0 if the value on the left is equal to the value on the right; and
+1 if the value on the left is greater than the value on the right.
+4 <=> 9 # -1
+92 <=> 34 # 1
+4 <=> 4 # 0
+'4' <=> 7 # nil
+'4' <=> '7' # nil
+'4' <=> '4' # 0
