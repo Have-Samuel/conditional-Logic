@@ -21,3 +21,54 @@ end
 string_length('kilometers')
 string_length('kilometers away')
 
+# What will each block of code below print to the screen? Write your answer on a piece of paper or in a text editor and then run each block of code to see if you were correct.
+# false
+# Snippet 1
+'4' == 4 ? puts("TRUE") : puts("FALSE")
+# did get it right
+# Snippet 2
+x = 2
+if ((x * 3) / 2) == (4 + 4 - x - 3)
+  puts "Did you get it right?"
+else
+  puts "Did you?"
+end
+# alright now!
+# Snippet 3
+y = 9
+x = 10
+if (x + 1) <= (y)
+  puts "Alright."
+elsif (x + 1) >= (y)
+  puts "Alright now!"
+elsif (y + 1) == x
+  puts "ALRIGHT NOW!"
+else
+  puts "Alrighty!"
+end
+
+# When you run the following code...
+# You get the following error message..
+# Why do you get this error and how can you fix it?
+
+def equal_to_four(x)
+    if x == 4
+      puts "yup"
+    else
+      puts "nope"
+  end
+end # fixd by adding this 'end'
+  equal_to_four(4)
+  equal_to_four(5)
+# false
+  (32 * 4) >= "129" # an error => comparison of Integer with String failed (ArgumentError)
+  # false 
+  847 == '847'
+# false
+  '847' < '846'
+# true
+  '847' > '846'
+# false
+  '847' > '8478'
+# true
+  '847' < '8478'
