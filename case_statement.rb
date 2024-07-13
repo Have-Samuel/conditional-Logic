@@ -40,3 +40,4 @@ when w == 10
 else
     puts 'w is nether 9 nor 10'
 end
+
