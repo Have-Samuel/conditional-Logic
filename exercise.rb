@@ -60,8 +60,11 @@ def equal_to_four(x)
 end # fixd by adding this 'end'
   equal_to_four(4)
   equal_to_four(5)
+
+  puts("this isn't important") && puts("THIS IS IMPORTANT!!!")
+
 # false
-  (32 * 4) >= "129" # an error => comparison of Integer with String failed (ArgumentError)
+  # (32 * 4) >= "129" # an error => comparison of Integer with String failed (ArgumentError)
   # false 
   847 == '847'
 # false
@@ -72,3 +75,4 @@ end # fixd by adding this 'end'
   '847' > '8478'
 # true
   '847' < '8478'
+  
